@@ -1,0 +1,10 @@
+COMMA=3
+K_EXECUTE=1
+CHINESE_CHAR=5
+SPACES=6
+PERIOD=4
+K_THEN=2
+'.'=4
+','=3
+'执行'=1
+'再'=2
