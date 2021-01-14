@@ -59,6 +59,18 @@ public class RuleParserBaseListener implements RuleParserListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitProcess(RuleParser.ProcessContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterIs_continue(RuleParser.Is_continueContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitIs_continue(RuleParser.Is_continueContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

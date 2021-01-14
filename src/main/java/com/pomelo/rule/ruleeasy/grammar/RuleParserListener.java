@@ -47,4 +47,14 @@ public interface RuleParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitProcess(RuleParser.ProcessContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link RuleParser#is_continue}.
+	 * @param ctx the parse tree
+	 */
+	void enterIs_continue(RuleParser.Is_continueContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link RuleParser#is_continue}.
+	 * @param ctx the parse tree
+	 */
+	void exitIs_continue(RuleParser.Is_continueContext ctx);
 }

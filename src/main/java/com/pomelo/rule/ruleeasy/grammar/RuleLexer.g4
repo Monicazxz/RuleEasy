@@ -6,6 +6,12 @@ K_EXECUTE
 K_THEN
     : '再' ;
 
+K_SUCCESS
+    : '如果成功' ;
+
+K_FAIL
+    : '如果失败' ;
+
 COMMA
     : ',' ;
 

@@ -34,4 +34,10 @@ public interface RuleParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitProcess(RuleParser.ProcessContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link RuleParser#is_continue}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitIs_continue(RuleParser.Is_continueContext ctx);
 }
